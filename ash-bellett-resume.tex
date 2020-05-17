@@ -2,53 +2,64 @@
 
 \usepackage[margin=1cm]{geometry}
 \usepackage{tabularx}
+\usepackage{listings}
+\usepackage{longtable}
+\usepackage{hyperref}
 
 \pagenumbering{gobble}
+\hyphenpenalty=10000
 
 \begin{document}
 
-\vspace*{5px}
+
 
 \LARGE
 \textbf{Ash Bellett}\\
 \large
 \newline
-\begin{tabular}{ @{} l l l l }
-\textbf{Phone}: & +61 468 620 576 & \textbf{LinkedIn}: & linkedin.com/in/ash-bellett \\ 
-\textbf{Email}: & ash.bellett.ab@gmail.com & \textbf{GitHub}: & github.com/ashbellett
+\begin{tabular}{ @{} p{2cm} p{8cm} p{2cm} l }
+\textbf{Location} & Melbourne, Australia & \textbf{LinkedIn} & \href{https://www.linkedin.com/in/ashbellett}{ashbellett} \\ 
+\textbf{Phone} & \href{tel:61468620576}{+61 468 620 576} & \textbf{GitHub} & \href{https://www.github.com/ashbellett}{ashbellett} \\
+\textbf{Email} & \href{mailto:ash.bellett.ab@gmail.com}{ash.bellett.ab@gmail.com} & \textbf{Kaggle} & \href{https://www.kaggle.com/ashbellett}{ashbellett} 
 \end{tabular}
 
-\begin{tabular}{ @{} p{2.5cm} p{12cm} r }
+Data science and software engineering professional with 3 years of technical consulting experience in analytics, artificial intelligence and application development.
+
+\begin{longtable}{ @{} p{2.5cm} p{12cm} r }
 \hline \\
 \large
 \textbf{Experience} & \textbf{IBM} & \normalsize Jun. 2019 -- present \\
  & \textbf{Senior Technical Consultant} & \\
 \large
- & Data science: Developed end-to-end data science pipelines for predictive modelling and text analytics. & \\
- & Software development: Held various software developer roles using languages such as Python, C++ and JavaScript. & \\
+ & Developed an advanced analytics platform using Node.js, Python and Tableau to increase containment of a consumer-facing virtual assistant for a large telecommunications client. & \\
+ & Created a cognitive search and research tool using Typescript, Node.js, React and various IBM Watson APIs to assist knowledge transfer between electrical engineers for a large energy client. & \\
+ & Built a cognitive search-enabled virtual assistant using Typescript, Node.js, the Slack API and various IBM Watson APIs to assist drivers understand complex road rules for a Defence department. & \\
  & & \\
 \large
  & \textbf{IBM} & \normalsize Feb. 2018 -- Jun. 2019 \\
  & \textbf{Technical Consultant} & \\
 \large
- & Web Development: Held various full-stack developer roles using technologies such as React, Angular, Node.js and SQL. & \\
- & Cognitive Computing: Built, tested and documented cognitive solutions in text analytics and chatbot design. & \\
+ & Contributed to a large case management system using Javascript and Python to assist knowledge workers with processing complex workflows for a large government client. & \\
+ & Collaborated with IBM Research to propose an NLP solution that can assess whether the financial advice given by banks supports customers' goals for a large financial services client. & \\
+ & Designed an internal virtual assistant application to help call centre staff respond to customer policy questions for a large insurance client. & \\
  & & \\
 \large
  & \textbf{IBM Graduate Network - Australia and New Zealand} & \normalsize Jul. 2018 -- Jul. 2019 \\
  & \textbf{Chief Digital Officer} & \\
 \large
- & Web Development: Designed, built and deployed the Graduate Network internal web app on IBM Cloud. & \\
- & Digital Strategy: Transitioned Graduate Network communications from text-based newsletters to video interviews with IBM leaders. & \\
+ & Designed, built and deployed the IBM Graduate Network web application using Node.js, HTML and CSS to transition from text-based newsletter content to interactive media. & \\
+ & Recorded, edited and published a video interview series with IBM leaders to share their experiences with the IBM graduate community. & \\
+ & Shaped the digital strategy of the IBM Graduate Network by advocating adoption of various social channels like Slack and web-based video messaging. & \\
  & & \\
 \large
  & \textbf{Mingara Australasia} & \normalsize Nov. 2016 -- Nov. 2017 \\
  & \textbf{Data Analyst} & \\
 \large
- & Data Analysis: Performed descriptive and predictive analytics of big data sets for emergency services clients. & \\
- & Geospatial Intelligence: Performed statistical analysis and visualisation of geospatial data using GIS software such as MapInfo Pro. & \\
-
+ & Performed geospatial data analysis using GIS software and SQL to inform the design of a large wireless communications network for a state government client. & \\
+ & Presented exploratory data analysis of census data to justify design decisions for emergency services clients. & \\
+ & Carried out statistical analysis using Excel and VBA to support presentations with various stakeholders and clients. & \\
  & & \\
+\newpage
 \hline \\
 \large
 \textbf{Education} & \textbf{Monash University} & \normalsize Feb. 2013 -- Nov. 2017 \\
@@ -59,13 +70,35 @@
  & Published a conference paper at the IEEE ITNAC 2017 conference. & \\
  & Completed a Masters unit on Wireless Communications which covered advanced topics in signal processing, probability and information theory. Received a High Distinction grade. & \\
  & \\
+
+\hline \\
+\textbf{Projects} & \textbf{Playing video games with deep reinforcement learning} & \\
+ & \texttt{python}, \texttt{gym}, \texttt{tensorflow} & \\
+ & Implemented a Deep Q-Network algorithm to land a 2D rocket on the surface of a moon using OpenAI's Gym simulation environment. Currently ranked 3rd on the OpenAI GitHub leaderboard for the Lunar Lander environment. & \\
+ & & \\
+ & \textbf{3D simulation with objects, physics and lighting} & \\
+ & \texttt{javascript}, \texttt{three.js} & \\
+ & Built a 3D world using the Three.js library with programmatic objects, physics, lighting and camera configurations. Features include object dynamics, object collisions and object destruction. & \\
+ & & \\
+ & \textbf{Portfolio optimisation using historical stock price data} & \\
+ & \texttt{python}, \texttt{numpy}, \texttt{pandas}, \texttt{scipy}, \texttt{matplotlib}, \texttt{cvxpy} & \\
+ & Framed stock selection as a mixed-integer quadratic programming problem and solved it using a convex optimisation library. Identified stocks to create a portfolio with highest return and lowest variance from ASX historical stock price data. & \\
+ & & \\
+ & \textbf{Dating analysis and predictive modelling} & \\
+ & \texttt{python}, \texttt{numpy}, \texttt{pandas}, \texttt{scipy}, \texttt{matplotlib}, \texttt{scikit-learn} & \\
+ & Built a machine learning model to determine whether a partner will match with their date based on dating preferences and personal background information. Included exploratory data analysis, feature engineering, hyperparameter tuning, model ensembling and model selection. & \\
+ & & \\
+
 \hline \\
 \large
-\textbf{Awards} & \textbf{IBM Inferno Award:} Awarded to the 3 highest achieving graduates in their first year at IBM. & \normalsize 2019 \\
- & \textbf{IBM Think Prize:} Attended the IBM Think technology conference in San Francisco for demonstrating high impact to clients. & \normalsize 2019 \\
- & \textbf{3 $\times$ IBM Manager's Choice Awards:} Awarded to employees who exemplify IBM's values and accomplish project success. & \normalsize 2018 \\
- & \textbf{Monash Dean's Honours List:} Awarded to students who achieved an average of 80\% or above during the academic year. & \normalsize 2017 \\
- & & 
-\end{tabular}
+\textbf{Awards} & \textbf{IBM Inferno Award} & \normalsize 2019 \\
+& Awarded to the 3 highest achieving graduates in their first year at IBM. & \\
+ & \textbf{IBM Think Prize} & \normalsize 2019 \\
+& Attended the IBM Think technology conference in San Francisco for demonstrating high impact to clients. & \\
+ & \textbf{4 $\times$ IBM Manager's Choice Awards} & \normalsize 2018 \\
+& Awarded to employees who exemplify IBM's values and accomplish project success. & \\
+ & \textbf{Monash Dean's Honours List} & \normalsize 2017 \\
+& Awarded to students who achieved an average of 80\% or above during the academic year. & \\
+\end{longtable}
 
 \end{document}
